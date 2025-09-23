@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn{    
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    height: auto;
+    font-weight: bold;
+}
+
+.nome_secao{}
+.nome_cliente{}
