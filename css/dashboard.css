@@ -1,6 +1,5 @@
 main{
     width: 100%;
-    max-width: 1024px;
 }
 
 section{
@@ -9,22 +8,7 @@ section{
     width: 100%;
 }
 
-#topo{  
-    gap: 20px;
-}
 
-.container_nome_secao{
-    display: flex;
-    width: 100%;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    background-color: green;
-}
-
-.nome_secao{
-    color: white;
-}
 
 .container_nome_cliente{
     display: flex;
@@ -35,8 +19,92 @@ section{
 
 .container_nome_cliente p{
     padding: 10px;
+    color: white;
 }
 
 .container_nome_cliente a{
     padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    margin-bottom: 10px;
+}
+
+.container_categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    gap: 30px;
+}
+
+.box_pizzas{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border: 3px solid green;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: end;
+}
+
+.box_pizzas p{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.salgada{
+    background: url(../img/salgada.jpg);
+    background-size: cover;
+}
+
+.doce{
+    background: url(../img/doce.jpg);
+    background-size: cover;
+}
+
+.calzone{
+    background: url(../img/calzone.jpg);
+    background-size: cover;
+}
+
+
+.container_banner{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+}
+
+.container_banner img{
+    width: 100%;
+    height: auto;
+}
+
+.container_promocoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 100px;
+    height: 100%;
+    min-height: 400px;
+}
+
+.box_promo{
+    display: flex;
+    width: 350px;
+    height: 350px;
+}
+
+.box_promo img{
+    width:100%;
+    border: 3px solid green;
+    border-radius: 10px;
 }
