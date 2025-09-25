@@ -42,6 +42,7 @@ section{
     gap: 30px;
 }
 
+
 .box_pizzas{
     display: flex;
     width: 250px;
@@ -72,7 +73,6 @@ section{
     background: url(../img/calzone.jpg);
     background-size: cover;
 }
-
 
 .container_banner{
     display: flex;
