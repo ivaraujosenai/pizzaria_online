@@ -4,12 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria Online</title>
-    <link rel="stylesheet" href="./css/geral.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="../css/geral.css">
+    <link rel="stylesheet" href="../css/pagamento.css">
 </head>
 <body>
     <main>
-        
+        <section class="topo">
+            <div class="container_geral container_nome_secao">
+                <h1 class="nome_secao">Pagamento</h1>
+            </div>
+        </section>
+        <div class="container_menu">
+            <nav class="container_geral menu">
+                <a href="./dashboard.html">Inicio</a>
+                <a href="./cardapio.html">Salgado</a>
+                <a href="">Doce</a>
+                <a href="">Calzone</a>
+            </nav>
+        </div>
+        <section class="central">
+            <div class="container_img">
+                <img src="../img/pagamentos.jpg" alt="foto">
+            </div>            
+            <form action="" method="post"class="container_form">
+                <label for="tipo_entrega">Tipo de entrega</label>
+                <select name="tipo_entrega" id="tipo_entrega">
+                    <option value="">Pegar no local</option>
+                    <option value="">Entrega</option>
+                </select>
+                <label for="meio_pagamento">Meio de pagmamento</label>
+                <select name="meio_pagamento" id="meio_pagamento">
+                    <option value="">Dinheiro</option>
+                    <option value="">Cartão Crédito</option>
+                    <option value="">Cartão Débito</option>
+                </select>
+                <label for="nome_cartao">Nome no cartão:</label>
+                <input type="text" name="nome_cartao" id="nome_cartao">
+                <label for="num_cartao">Número do cartão:</label>
+                <input type="text" name="num_cartao" id="num_cartao">
+                <label for="validade_cartao"></label>
+                <input type="text" name="validade_cartao" id="validade_cartao">
+                <label for="cod_cartao">Código do cartão:</label>
+                <input type="text" name="cod_cartao" id="cod_cartao">
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" id="cpf">
+                <a href="./acompanhamento.html">Pagar</a>
+            </form>
+        </section>
+        <section class="rodape">
+            <p>Todos os direitos reservados</p>
+        </section>
     </main>
 </body>
 </html>
