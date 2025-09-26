@@ -66,6 +66,33 @@ input{
     background-color: green;
 }
 
+.container_menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: orangered;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.menu a{
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: green;
+}
+
 .central{
     display: flex;
     width: 100%;

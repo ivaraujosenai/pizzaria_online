@@ -1,0 +1,54 @@
+main{
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.central{
+    padding: 10px;
+}
+
+.container_box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 25px;
+}
+
+.box_pizzas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border: 3px solid green;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box_pizzas h4{
+    width: 100%;
+    text-align: center;
+}
+.box_pizzas p{
+    width: 100%;
+    text-align: center;
+}
+.box_pizzas a{
+    text-align: center;
+    background-color: green;
+    color: white;
+    border: 0;
+    padding: 10px;
+}
+.box_pizzas img{
+    display: flex;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
