@@ -8,13 +8,11 @@ section{
     width: 100%;
 }
 
-input{
+select{
     padding: 5px;
-    border: 0px;
-    border-radius: 0px;
 }
 
-select{
+input{
     padding: 5px;
 }
 
@@ -37,7 +35,7 @@ select{
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 10px;
+    gap: 20px;
     width: 60%;
 }
 
@@ -59,19 +57,19 @@ select{
     width: 100%;
     justify-content: start;
     align-items: start;
+    gap: 20px;
 }
 
 .container_sem{
     display: flex;
-    gap: 10px;
     width: 100%;
     justify-content: start;
 }
 
 .sabores_adicionais{
     display: flex;
-    gap: 10px;
     width: 100%;
+    justify-items: start;
 }
 
 .btn_form{

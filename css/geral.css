@@ -31,12 +31,6 @@ label{
     font-weight: bold;
 }
 
-input{
-    padding: 10px;
-    border: 0;
-    border-radius: 5px;
-}
-
 .container_nome_secao{
     display: flex;
     width: 100%;

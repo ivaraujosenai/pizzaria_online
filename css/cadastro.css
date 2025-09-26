@@ -19,6 +19,12 @@ form{
     gap: 10px;    
 }
 
+input{
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
 .texto_branco{
     color: white;
 }

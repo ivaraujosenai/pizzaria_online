@@ -9,9 +9,7 @@ section{
 }
 
 input{
-    padding: 5px;
-    border: 0px;
-    border-radius: 0px;
+    padding: 5px;    
 }
 
 select{
@@ -29,9 +27,10 @@ select{
 .container_form{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     width: 30%;
+    gap: 10px;
 }
 
 .container_form form{
@@ -49,7 +48,13 @@ select{
     width: 100%;
 }
 
-.container_form a{
+.container_btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container_btn a{
     display: flex;
     justify-content: center;
     background-color: green;
