@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria Online</title>
-    <link rel="stylesheet" href="./css/geral.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="../css/geral.css">
+    <link rel="stylesheet" href="../css/pedido.css">
 </head>
 <body>
     <main>
         <section class="topo">
             <div class="container_geral container_nome_secao">
-                <h1 class="nome_secao">Cárdapio</h1>
+                <h1 class="nome_secao">Pedido</h1>
             </div>
         </section>
         <div class="container_menu">
@@ -23,7 +23,49 @@
             </nav>
         </div>
         <section class="central">            
-            
+            <div class="container_form">
+                <form action="" method="post">
+                    <label for="sabores">Sabores:</label>
+                    <select name="sabores" id="sabores">
+                        <option value=""></option>
+                        <option value="">Calabresa</option>
+                    </select>
+                    <div class="div_form">
+                        <label for="sabores">Tamanho:</label>
+                        <select name="tamanho" id="tamanho">
+                            <option value=""></option>
+                            <option value="">Grande</option>
+                        </select>
+                        <label for="sabores">Sabor borda:</label>
+                        <select name="sabor_borda" id="sabor_borda">
+                            <option value="">Sem borda</option>
+                            <option value="">Catupiry</option>
+                        </select>
+                    </div>
+                    <div class="div_form">
+                        <label for="quantidade">Quantidade:</label>
+                        <input type="number" name="quantidade" id="quantidade">
+                        <div class="container_sem">
+                            <label for="sem_azeitona">Sem azeitona:</label>
+                            <input type="checkbox" name="sem_azeitona" id="sem_azeitona">
+                            <label for="sem_lactose">Sem lactose:</label>
+                            <input type="checkbox" name="sem_lactose" id="sem_lactose">
+                        </div>
+                    </div>
+                    <label for="">Sabores adicionais:</label>
+                    <div class="sabores_adicionais">
+                        <label for="bacon">Bacon:</label>
+                        <input type="checkbox" name="bacon" id="bacon">
+                        <label for="presunto">Presunto:</label>
+                        <input type="checkbox" name="presunto" id="presunto">
+                    </div>
+                    <a href="./pagamento.html" class="btn_form">Pedir</a>
+                </form>
+            </div>
+            <div class="container_img">
+                <img src="../img/calabresaa.jpg" alt="foto">
+                <p>Pizza de Calabresa</p>
+            </div>
         </section>
         <section class="rodape">
             <p>Todos os direitos reservados</p>
