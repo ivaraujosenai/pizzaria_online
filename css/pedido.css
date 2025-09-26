@@ -45,6 +45,10 @@ select{
     width: 100%;
 }
 
+.container_form a{
+    font-weight: bold;
+}
+
 .container_form select{
     width: 100%;
 }
